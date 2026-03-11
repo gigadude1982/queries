@@ -6,7 +6,8 @@ import path from "path";
 const REVIEW_DIR = "src/queries";
 
 async function main() {
-  process.exit(0);
+  // process.exit(0);   // process.exit(0); // disable hook
+
   // Read JSON input from stdin
   const input = await new Promise((resolve) => {
     let data = "";
@@ -59,6 +60,7 @@ If yes, provide specific feedback on which existing functions could be used inst
 If no, just say "Changes look appropriate."`;
 
   const messages = [];
+  // requires Claude Code SDK for TypeScript
   for await (const message of query({
     prompt,
   })) {
