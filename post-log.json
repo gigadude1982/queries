@@ -1,0 +1,22 @@
+{
+  "session_id": "3f0630fc-c8ce-4d53-a3a6-c7daa426bade",
+  "transcript_path": "/Users/Dalton.Bruce/.claude/projects/-Users-Dalton-Bruce-claude-queries/3f0630fc-c8ce-4d53-a3a6-c7daa426bade.jsonl",
+  "cwd": "/Users/Dalton.Bruce/claude/queries",
+  "permission_mode": "default",
+  "hook_event_name": "PostToolUse",
+  "tool_name": "Read",
+  "tool_input": {
+    "file_path": "/Users/Dalton.Bruce/claude/queries/package.json"
+  },
+  "tool_response": {
+    "type": "text",
+    "file": {
+      "filePath": "/Users/Dalton.Bruce/claude/queries/package.json",
+      "content": "{\n  \"name\": \"queries\",\n  \"version\": \"1.0.0\",\n  \"description\": \"\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"setup\": \"npm install && node ./scripts/init-claude.js\",\n    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\",\n    \"sdk\": \"tsx sdk.ts\",\n    \"tsc\": \"tsc --noEmit\"\n  },\n  \"keywords\": [],\n  \"author\": \"\",\n  \"license\": \"ISC\",\n  \"type\": \"module\",\n  \"dependencies\": {\n    \"@anthropic-ai/claude-agent-sdk\": \"^0.1.5\",\n    \"@types/node\": \"^24.0.13\",\n    \"sqlite\": \"^5.1.1\",\n    \"sqlite3\": \"^5.1.7\",\n    \"tsx\": \"^4.20.3\",\n    \"typescript\": \"^5.8.3\"\n  }\n}\n",
+      "numLines": 25,
+      "startLine": 1,
+      "totalLines": 25
+    }
+  },
+  "tool_use_id": "toolu_01NJ1i2FcrCsVyXvHTaaWt64"
+}
